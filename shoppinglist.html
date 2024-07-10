@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .purchased {
+            text-decoration: line-through;
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <img src="images/supermarket2.jfif"alt="supermarket animated">
+    <h1>Shopping List</h1>
+    <input type="text" id="itemInput" placeholder="Enter item...">
+    <button id="addItem">Add Item</button>
+    <button id="clearList">Clear List</button>
+    <button id="markPurchases">Mark All as Purchased</button>
+    <ul id="listContainer"></ul>
+
+    <script src="events.js"></script>
+</body>
+</html>

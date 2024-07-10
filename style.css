@@ -1,0 +1,45 @@
+    /*This section includes styles for the main content area such as padding,border thickness and size of the margin*/
+    /*global styles*/
+      body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 3px solid #fd0e0e;
+            border-radius: 5px;
+        }
+    /*input elements*/
+        input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        /*button styles*/
+        button {
+            padding: 15px 30px;
+            margin-right: 10px;
+        }
+        /*navigation menu styles*/
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #fa0e98;
+        }
+        li.purchased {
+            text-decoration: line-through;
+            background-color: #16fa62;
+        }
+        .edit-input {
+            display: none;
+        }
+        /* Show the edit input when editing */
+        li.editing .edit-input {
+          display: block;
+        }
+    
